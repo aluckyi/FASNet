@@ -11,7 +11,7 @@ from PIL import Image
 
 import transforms as ext_transforms
 
-from networks.enet import FASNet as Net
+from networks.fasnet import FASNet as Net
 
 from train import Train
 from test import Test
