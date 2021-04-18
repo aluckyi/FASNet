@@ -31,7 +31,7 @@ def get_arguments():
         "--batch-size",
         "-b",
         type=int,
-        default=8,  # 8
+        default=8,  # !!!!!!******
         help="The batch size. Default: 10")
     parser.add_argument(
         "--epochs",
@@ -78,7 +78,7 @@ def get_arguments():
     parser.add_argument(
         "--dataset-dir",
         type=str,
-        default="/home/shu/Documents/datasets/USV/MaSTr1325/augmentation",  # !!!!!!******
+        default="data/MaSTr1325",  # !!!!!!******
         help="Path to the root directory of the selected dataset. "
         "Default: data/MaSTr1325")
     parser.add_argument(
